@@ -3,6 +3,6 @@
 
 <h1>Este pryecto es solo una plantilla que ya tiene consigo la instalacion de vue js e integrada con laravel </h1>
 <h2> debes tener ya instalado node , composer y un sistema de desarrollo  de php como laragon  </h2>
-    <h2>   los pasos son composer install , luego npm install 
+    <h2>   los pasos son composer install , luego npm install, php artisan key:generate, php artisan migrate:fresh 
     luego npm run dev y ya deberias ver la plantilla de vue js , espero les sirva saludos </h2>
    
