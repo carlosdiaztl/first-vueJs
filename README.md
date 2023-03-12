@@ -5,4 +5,4 @@
     debes tener ya instalado node , composer y un sistema de desarrollo  de php como   laragon 
     
     los pasos son composer install , luego npm install 
-    luego npm run dev y ya deberias ver la plantilla de vue js , espero les sirva saludos <h2/>
+    luego npm run dev y ya deberias ver la plantilla de vue js , espero les sirva saludos </h2>
