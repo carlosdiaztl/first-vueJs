@@ -1,9 +1,12 @@
 import "./bootstrap";
 import { createApp } from "vue";
-
 import App from "./components/App.vue";
-createApp(App).mount("#app");
-// primer parametro es el componente y el segundo es como lo vamos a renderizar en el html
-
-// tambien en el balde hacemos referencia de que archivos estamos llamando
-// con @vite()  en cual lleva dentro la ruta de la caprtet de este archiv
+import router from "./router";
+import { RouterLink, RouterView } from "vue-router";
+// import { RouterView } from "vue-router";
+// Vue.use(RouterView);
+const app = createApp(App);
+app.component("RouterLink", RouterLink);
+app.component("RouterView", RouterView);
+app.use(router);
+app.mount("#app");
